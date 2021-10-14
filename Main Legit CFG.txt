@@ -22,11 +22,11 @@ esp.chams.enemy.glow.clr 255 255 255 0
 esp.chams.enemy.glow.healthclr1 255 0 0 255
 esp.chams.enemy.glow.healthclr2 0 255 0 255
 esp.chams.enemy.occluded "Off"
-esp.chams.enemy.occluded.clr 0 0 0 255
+esp.chams.enemy.occluded.clr 147 255 0 255
 esp.chams.enemy.overlay "Off"
 esp.chams.enemy.overlay.clr 239 199 53 27
 esp.chams.enemy.visible "Glow"
-esp.chams.enemy.visible.clr 0 254 255 255
+esp.chams.enemy.visible.clr 255 18 0 255
 esp.chams.enemyattachments 
 esp.chams.enemyattachments.glow "Off"
 esp.chams.enemyattachments.glow.clr 255 255 255 255
@@ -145,14 +145,14 @@ esp.local.outofview "Off"
 esp.local.outofviewscale 40.0
 esp.local.smoothghost "Off"
 esp.local.thirdperson "Off"
-esp.local.thirdpersondist 69.0
-esp.local.viewmodelfov 69.0
+esp.local.thirdpersondist 201.0
+esp.local.viewmodelfov 67.0
 esp.local.wallbanginfo 
 esp.local.wallbanginfo.dmg "Off"
 esp.local.wallbanginfo.grid "Off"
 esp.master "On"
 esp.other 
-esp.other.antiobs "Off"
+esp.other.antiobs "On"
 esp.other.antiscreenshot "On"
 esp.other.crosshair "Off"
 esp.other.crosshair.clr 255 0 0 255
@@ -175,7 +175,7 @@ esp.other.radar "Off"
 esp.other.radaralpha 255.0
 esp.other.radardist 1450.0
 esp.other.recoilcrosshair "Off"
-esp.other.recoilcrosshair.clr 37 60 80 125
+esp.other.recoilcrosshair.clr 9 255 0 125
 esp.other.sharedesp "Shared with Team"
 esp.overlay 
 esp.overlay.enemy 
@@ -186,7 +186,7 @@ esp.overlay.enemy.armor "Off"
 esp.overlay.enemy.barrel "Off"
 esp.overlay.enemy.barrel.clr 240 60 30 255
 esp.overlay.enemy.box "Off"
-esp.overlay.enemy.box.clr 255 255 255 255
+esp.overlay.enemy.box.clr 255 0 0 255
 esp.overlay.enemy.defusing "Off"
 esp.overlay.enemy.defusing.clr 244 70 66 255
 esp.overlay.enemy.dormant "On"
@@ -220,7 +220,7 @@ esp.overlay.friendly.armor "Off"
 esp.overlay.friendly.barrel "Off"
 esp.overlay.friendly.barrel.clr 30 154 247 255
 esp.overlay.friendly.box "Off"
-esp.overlay.friendly.box.clr 255 255 255 255
+esp.overlay.friendly.box.clr 33 255 0 255
 esp.overlay.friendly.defusing "Off"
 esp.overlay.friendly.defusing.clr 244 70 66 255
 esp.overlay.friendly.dormant "Off"
@@ -264,7 +264,7 @@ esp.overlay.weapon.name "Off"
 esp.skins 
 esp.skins.enabled "On"
 esp.world 
-esp.world.bullettracer "All"
+esp.world.bullettracer "Off"
 esp.world.bullettracerfilter 
 esp.world.bullettracerfilter.enemy "Off"
 esp.world.bullettracerfilter.enemy.clr 240 60 30 255
@@ -281,12 +281,12 @@ esp.world.inferno.enemy "Off"
 esp.world.inferno.friendly "Off"
 esp.world.inferno.local "Off"
 esp.world.materials 
-esp.world.materials.skybox "vertigoblue_hdr"
-esp.world.materials.skybox.clr 10 10 10 255
+esp.world.materials.skybox "embassy"
+esp.world.materials.skybox.clr 255 255 255 255
 esp.world.materials.staticprops "On"
-esp.world.materials.staticprops.clr 19 23 26 255
+esp.world.materials.staticprops.clr 255 255 255 255
 esp.world.materials.walls "On"
-esp.world.materials.walls.clr 19 23 26 255
+esp.world.materials.walls.clr 149 149 149 255
 esp.world.nadetracer 
 esp.world.nadetracer.enemy "Off"
 esp.world.nadetracer.enemy.clr 240 60 30 255
@@ -313,7 +313,7 @@ lbot.aim.asniper.nearest "On"
 lbot.aim.autofire "Off"
 lbot.aim.autopistol 5.0
 lbot.aim.enable "On"
-lbot.aim.fireonpress "On"
+lbot.aim.fireonpress "Off"
 lbot.aim.hpistol 
 lbot.aim.hpistol.hitbox 4 2 0 3 0 0 0 0 
 lbot.aim.hpistol.hitboxstep 1.5
@@ -324,15 +324,15 @@ lbot.aim.lmg.hitbox 3 2 0 1 0 0 0 0
 lbot.aim.lmg.hitboxstep 1.5
 lbot.aim.lmg.nearest "On"
 lbot.aim.pistol 
-lbot.aim.pistol.hitbox 3 2 0 1 0 0 0 0 
+lbot.aim.pistol.hitbox 4 3 1 3 2 1 1 1 
 lbot.aim.pistol.hitboxstep 1.5
 lbot.aim.pistol.nearest "Off"
 lbot.aim.rifle 
-lbot.aim.rifle.hitbox 3 2 1 3 3 1 0 0 
-lbot.aim.rifle.hitboxstep 2.5
+lbot.aim.rifle.hitbox 4 2 1 3 2 0 0 0 
+lbot.aim.rifle.hitboxstep 1.75
 lbot.aim.rifle.nearest "Off"
 lbot.aim.scout 
-lbot.aim.scout.hitbox 3 2 0 1 0 0 0 0 
+lbot.aim.scout.hitbox 3 3 0 4 1 0 0 0 
 lbot.aim.scout.hitboxstep 1.5
 lbot.aim.scout.nearest "On"
 lbot.aim.shared 
@@ -340,13 +340,13 @@ lbot.aim.shared.hitbox 3 2 0 1 0 0 0 0
 lbot.aim.shared.hitboxstep 1.5
 lbot.aim.shared.nearest "On"
 lbot.aim.shotgun 
-lbot.aim.shotgun.hitbox 3 2 0 1 0 0 0 0 
+lbot.aim.shotgun.hitbox 3 2 0 1 1 1 0 0 
 lbot.aim.shotgun.hitboxstep 1.5
 lbot.aim.shotgun.nearest "On"
 lbot.aim.smg 
-lbot.aim.smg.hitbox 4 2 0 1 0 0 0 0 
+lbot.aim.smg.hitbox 4 2 0 3 0 0 0 0 
 lbot.aim.smg.hitboxstep 1.5
-lbot.aim.smg.nearest "Off"
+lbot.aim.smg.nearest "On"
 lbot.aim.sniper 
 lbot.aim.sniper.hitbox 1 4 1 3 2 1 0 0 
 lbot.aim.sniper.hitboxstep 2.875
@@ -365,7 +365,7 @@ lbot.antiaim.onknife "Off"
 lbot.antiaim.rightkey 0
 lbot.antiaim.type "Off"
 lbot.extra 
-lbot.extra.backtrack 70.0
+lbot.extra.backtrack 20.0
 lbot.extra.knifetrigger "Off"
 lbot.master "On"
 lbot.movement 
@@ -388,7 +388,7 @@ lbot.trg.asniper.hitchance 50.0
 lbot.trg.autofire "Off"
 lbot.trg.enable "On"
 lbot.trg.hpistol 
-lbot.trg.hpistol.antirecoil "Off"
+lbot.trg.hpistol.antirecoil "On"
 lbot.trg.hpistol.burst 0.0
 lbot.trg.hpistol.delay 0.0
 lbot.trg.hpistol.hitbox 1 1 0 1 0 0 0 0 
@@ -414,7 +414,7 @@ lbot.trg.rifle.hitbox 1 1 0 1 0 0 0 0
 lbot.trg.rifle.hitchance 24.0
 lbot.trg.scout 
 lbot.trg.scout.antirecoil "On"
-lbot.trg.scout.burst 200.0
+lbot.trg.scout.burst 0.0
 lbot.trg.scout.delay 0.0
 lbot.trg.scout.hitbox 1 1 0 1 0 0 0 0 
 lbot.trg.scout.hitchance 50.0
@@ -425,11 +425,11 @@ lbot.trg.shared.delay 0.0
 lbot.trg.shared.hitbox 1 1 0 1 0 0 0 0 
 lbot.trg.shared.hitchance 50.0
 lbot.trg.shotgun 
-lbot.trg.shotgun.antirecoil "On"
-lbot.trg.shotgun.burst 200.0
+lbot.trg.shotgun.antirecoil "Off"
+lbot.trg.shotgun.burst 0.0
 lbot.trg.shotgun.delay 0.0
-lbot.trg.shotgun.hitbox 1 1 0 1 0 0 0 0 
-lbot.trg.shotgun.hitchance 50.0
+lbot.trg.shotgun.hitbox 1 1 1 1 1 1 1 1 
+lbot.trg.shotgun.hitchance 4.0
 lbot.trg.smg 
 lbot.trg.smg.antirecoil "On"
 lbot.trg.smg.burst 200.0
@@ -449,7 +449,7 @@ lbot.trg.zeus.delay 0.0
 lbot.trg.zeus.hitbox 1 1 0 1 0 0 0 0 
 lbot.trg.zeus.hitchance 50.0
 lbot.weapon 
-lbot.weapon.accuracy "Rifle"
+lbot.weapon.accuracy "Pistol"
 lbot.weapon.accuracy.asniper 
 lbot.weapon.accuracy.asniper.hrecoil 50.0
 lbot.weapon.accuracy.asniper.rcs "On"
@@ -505,7 +505,7 @@ lbot.weapon.accuracy.zeus.hrecoil 50.0
 lbot.weapon.accuracy.zeus.rcs "On"
 lbot.weapon.accuracy.zeus.src "On"
 lbot.weapon.accuracy.zeus.vrecoil 100.0
-lbot.weapon.aim "Rifle"
+lbot.weapon.aim "Pistol"
 lbot.weapon.aim.asniper 
 lbot.weapon.aim.asniper.curve 0.5
 lbot.weapon.aim.asniper.randomize 4.0
@@ -525,16 +525,16 @@ lbot.weapon.aim.pistol
 lbot.weapon.aim.pistol.curve 0.0
 lbot.weapon.aim.pistol.randomize 0.0
 lbot.weapon.aim.pistol.smooth 2.4
-lbot.weapon.aim.pistol.smoothtype "Static"
+lbot.weapon.aim.pistol.smoothtype "Dynamic"
 lbot.weapon.aim.rifle 
-lbot.weapon.aim.rifle.curve 0.0
-lbot.weapon.aim.rifle.randomize 0.0
-lbot.weapon.aim.rifle.smooth 4.9
+lbot.weapon.aim.rifle.curve 0.35
+lbot.weapon.aim.rifle.randomize 2.7
+lbot.weapon.aim.rifle.smooth 8.8
 lbot.weapon.aim.rifle.smoothtype "Static"
 lbot.weapon.aim.scout 
 lbot.weapon.aim.scout.curve 0.05
 lbot.weapon.aim.scout.randomize 0.0
-lbot.weapon.aim.scout.smooth 1.5
+lbot.weapon.aim.scout.smooth 2.9
 lbot.weapon.aim.scout.smoothtype "Static"
 lbot.weapon.aim.shared 
 lbot.weapon.aim.shared.curve 0.5
@@ -543,13 +543,13 @@ lbot.weapon.aim.shared.smooth 4.0
 lbot.weapon.aim.shared.smoothtype "Static"
 lbot.weapon.aim.shotgun 
 lbot.weapon.aim.shotgun.curve 0.5
-lbot.weapon.aim.shotgun.randomize 4.0
+lbot.weapon.aim.shotgun.randomize 0.0
 lbot.weapon.aim.shotgun.smooth 4.0
-lbot.weapon.aim.shotgun.smoothtype "Static"
+lbot.weapon.aim.shotgun.smoothtype "Dynamic"
 lbot.weapon.aim.smg 
 lbot.weapon.aim.smg.curve 0.0
 lbot.weapon.aim.smg.randomize 0.0
-lbot.weapon.aim.smg.smooth 4.5
+lbot.weapon.aim.smg.smooth 7.1
 lbot.weapon.aim.smg.smoothtype "Static"
 lbot.weapon.aim.sniper 
 lbot.weapon.aim.sniper.curve 0.0
@@ -561,36 +561,36 @@ lbot.weapon.aim.zeus.curve 0.5
 lbot.weapon.aim.zeus.randomize 4.0
 lbot.weapon.aim.zeus.smooth 4.0
 lbot.weapon.aim.zeus.smoothtype "Static"
-lbot.weapon.target "Rifle"
+lbot.weapon.target "Pistol"
 lbot.weapon.target.asniper 
 lbot.weapon.target.asniper.fsd 50.0
 lbot.weapon.target.asniper.maxfov 1.7
 lbot.weapon.target.asniper.minfov 0.4
 lbot.weapon.target.asniper.tsd 400.0
 lbot.weapon.target.hpistol 
-lbot.weapon.target.hpistol.fsd 40.0
-lbot.weapon.target.hpistol.maxfov 1.3000001
-lbot.weapon.target.hpistol.minfov 0.1
-lbot.weapon.target.hpistol.tsd 400.0
+lbot.weapon.target.hpistol.fsd 10.0
+lbot.weapon.target.hpistol.maxfov 1.9000002
+lbot.weapon.target.hpistol.minfov 0.3
+lbot.weapon.target.hpistol.tsd 30.0
 lbot.weapon.target.lmg 
 lbot.weapon.target.lmg.fsd 0.0
 lbot.weapon.target.lmg.maxfov 1.2
 lbot.weapon.target.lmg.minfov 0.0
 lbot.weapon.target.lmg.tsd 400.0
 lbot.weapon.target.pistol 
-lbot.weapon.target.pistol.fsd 20.0
+lbot.weapon.target.pistol.fsd 0.0
 lbot.weapon.target.pistol.maxfov 2.5
-lbot.weapon.target.pistol.minfov 0.0
+lbot.weapon.target.pistol.minfov 0.3
 lbot.weapon.target.pistol.tsd 40.0
 lbot.weapon.target.rifle 
-lbot.weapon.target.rifle.fsd 40.0
-lbot.weapon.target.rifle.maxfov 3.0
-lbot.weapon.target.rifle.minfov 0.0
-lbot.weapon.target.rifle.tsd 50.0
+lbot.weapon.target.rifle.fsd 20.0
+lbot.weapon.target.rifle.maxfov 2.5000005
+lbot.weapon.target.rifle.minfov 0.7
+lbot.weapon.target.rifle.tsd 80.0
 lbot.weapon.target.scout 
-lbot.weapon.target.scout.fsd 30.0
-lbot.weapon.target.scout.maxfov 2.5
-lbot.weapon.target.scout.minfov 0.0
+lbot.weapon.target.scout.fsd 20.0
+lbot.weapon.target.scout.maxfov 1.9
+lbot.weapon.target.scout.minfov 0.20000002
 lbot.weapon.target.scout.tsd 70.0
 lbot.weapon.target.shared 
 lbot.weapon.target.shared.fsd 50.0
@@ -599,13 +599,13 @@ lbot.weapon.target.shared.minfov 0.5
 lbot.weapon.target.shared.tsd 400.0
 lbot.weapon.target.shotgun 
 lbot.weapon.target.shotgun.fsd 50.0
-lbot.weapon.target.shotgun.maxfov 8.0
-lbot.weapon.target.shotgun.minfov 0.5
+lbot.weapon.target.shotgun.maxfov 3.7
+lbot.weapon.target.shotgun.minfov 0.0
 lbot.weapon.target.shotgun.tsd 400.0
 lbot.weapon.target.smg 
 lbot.weapon.target.smg.fsd 50.0
 lbot.weapon.target.smg.maxfov 2.4
-lbot.weapon.target.smg.minfov 0.1
+lbot.weapon.target.smg.minfov 0.5
 lbot.weapon.target.smg.tsd 30.0
 lbot.weapon.target.sniper 
 lbot.weapon.target.sniper.fsd 40.0
@@ -1269,6 +1269,7 @@ theme.ui.bg1 20 20 20 231
 theme.ui.bg2 255 215 0 0
 theme.ui.border 255 215 0 111
 unbindall
+bindhold "Mouse1" esp.other.recoilcrosshair "Off" "Line" 0
 bindhold "Mouse4" lbot.weapon.vis.shared.smoke "Off" "On" 0
 bindhold "Mouse4" lbot.weapon.vis.shared.autowall "Off" "On" 1
 bindhold "Mouse4" misc.flex_nade.nade_activation_dist "0.0" "20.0" 2
@@ -1288,45 +1289,43 @@ alias autodir2 "rbot.antiaim.left 90.0 Desync; rbot.antiaim.left.lby 0.0; rbot.a
 alias cls "clear"
 alias lyb "rbot.antiaim.advanced.antialign"
 alias micro "rbot.antiaim.advanced.antialign"
+alias hsbc "hitscan_backtrack_only"
+alias hsbc1 "hitscan_backtrack_only"
 alias autowallon "rbot.hitscan.mode.pistol.autowall 1; rbot.hitscan.mode.hpistol.autowall 1; rbot.hitscan.mode.smg.autowall 1; rbot.hitscan.mode.rifle.autowall 1; rbot.hitscan.mode.shotgun.autowall 1; rbot.hitscan.mode.scout.autowall 1; rbot.hitscan.mode.asniper.autowall 1; rbot.hitscan.mode.sniper.autowall 1; rbot.hitscan.mode.lmg.autowall 1; rbot.accuracy.weapon.sniper.mindmg 100;"
 alias autowalloff "rbot.hitscan.mode.pistol.autowall 0; rbot.hitscan.mode.hpistol.autowall 0; rbot.hitscan.mode.smg.autowall 0; rbot.hitscan.mode.rifle.autowall 0; rbot.hitscan.mode.shotgun.autowall 0; rbot.hitscan.mode.scout.autowall 0; rbot.hitscan.mode.asniper.autowall 0; rbot.hitscan.mode.sniper.autowall 0; rbot.hitscan.mode.lmg.autowall 0; rbot.accuracy.weapon.sniper.mindmg 100; rbot.accuracy.weapon.pistol.mindmg 25; rbot.accuracy.weapon.hpistol.mindmg 60; rbot.accuracy.weapon.smg.mindmg 24; rbot.accuracy.weapon.rifle.mindmg 90; rbot.accuracy.weapon.shotgun.mindmg 10; rbot.accuracy.weapon.scout.mindmg 80; rbot.accuracy.weapon.asniper.mindmg 15; rbot.accuracy.weapon.lmg.mindmg 50; rbot.accuracy.weapon.zeus.mindmg 100;"
 alias auto10 "rbot.accuracy.weapon.pistol.mindmg 10; rbot.accuracy.weapon.zeus.mindmg 10; rbot.accuracy.weapon.hpistol.mindmg 10; rbot.accuracy.weapon.smg.mindmg 10; rbot.accuracy.weapon.rifle.mindmg 10; rbot.accuracy.weapon.shotgun.mindmg 10; rbot.accuracy.weapon.scout.mindmg 10; rbot.accuracy.weapon.asniper.mindmg 10; rbot.accuracy.weapon.sniper.mindmg 10; rbot.accuracy.weapon.lmg.mindmg 10;"
-alias hsbc "hitscan_backtrack_only"
-alias hsbc1 "hitscan_backtrack_only"
 skin.clear
-skin.add "weapon_deagle" "cu_deagle_aureus" "0.0" "0" "0" "" "" "" "" "" ""
-skin.add "weapon_elite" "gs_dual_elites_dezastre" "0.0" "0" "0" "" "" "" "" "" ""
-skin.add "weapon_fiveseven" "cu_fiveseven_hyperbeast" "0.0" "0" "0" "" "" "" "" "" ""
-skin.add "weapon_glock" "cu_glock_eyecontact" "0.0" "0" "0" "" "" "" "" "" ""
-skin.add "weapon_aug" "am_bloom_blue" "0.0" "0" "0" "" "" "" "" "" ""
-skin.add "weapon_awp" "cu_awp_psychopath" "0.0" "0" "0" "" "" "" "" "" ""
-skin.add "weapon_famas" "cu_famas_pulse" "0.0" "0" "0" "" "" "" "" "" ""
-skin.add "weapon_g3sg1" "gs_g3sg1_cetme_redux" "0.0" "0" "0" "" "" "" "" "" ""
-skin.add "weapon_galilar" "cu_galil_candychaos" "0.0" "0" "0" "" "" "" "" "" ""
-skin.add "weapon_m249" "cu_m249_spectre" "0.0" "0" "0" "" "" "" "" "" ""
-skin.add "weapon_m4a1" "cu_m4a4_neo_noir" "0.0" "0" "0" "" "" "" "" "" ""
-skin.add "weapon_mac10" "cu_mac10_decay" "0.0" "0" "0" "" "" "" "" "" ""
-skin.add "weapon_p90" "gs_p90_tread" "0.0" "0" "0" "" "" "" "" "" ""
-skin.add "weapon_mp5sd" "gs_mp5_festival_drip" "0.0" "0" "0" "" "" "" "" "" ""
-skin.add "weapon_ump45" "cu_ump45_primalsaber" "0.0" "0" "0" "" "" "" "" "" ""
-skin.add "weapon_xm1014" "aq_xm_leaf_fade" "0.0" "0" "0" "" "" "" "" "" ""
-skin.add "weapon_bizon" "cu_bizon_all_in" "0.0" "0" "0" "" "" "" "" "" ""
-skin.add "weapon_mag7" "gs_mag7_glass" "0.0" "0" "0" "" "" "" "" "" ""
-skin.add "weapon_negev" "cu_negev_prototype" "0.0" "0" "0" "" "" "" "" "" ""
-skin.add "weapon_sawedoff" "cu_sawedoff_origami" "0.0" "0" "0" "" "" "" "" "" ""
-skin.add "weapon_tec9" "am_tec_9_sea_salt" "0.0" "0" "0" "" "" "" "" "" ""
-skin.add "weapon_hkp2000" "gs_p2000_imperial_dragon" "0.0" "0" "0" "" "" "" "" "" ""
-skin.add "weapon_mp7" "cu_mp7-commander" "0.0" "0" "0" "" "" "" "" "" ""
-skin.add "weapon_mp9" "cu_mp9_island_floral" "0.0" "0" "0" "" "" "" "" "" ""
-skin.add "weapon_nova" "cu_nova_hyperbeast" "0.0" "0" "0" "" "" "" "" "" ""
-skin.add "weapon_p250" "cu_p250_cassette" "0.0" "0" "0" "" "" "" "" "" ""
-skin.add "weapon_sg556" "cu_sg553_darkwing" "0.0" "0" "0" "" "" "" "" "" ""
-skin.add "weapon_ssg08" "cu_ssg08_fever_dream" "0.0" "0" "0" "" "" "" "" "" ""
-skin.add "weapon_m4a1_silencer" "gs_m4a1_shatter" "0.0" "0" "0" "" "" "" "" "" ""
-skin.add "weapon_usp_silencer" "cu_usps_noir" "0.0" "0" "0" "" "" "" "" "" ""
-skin.add "weapon_cz75a" "am_czv2_mf" "0.0" "0" "0" "" "" "" "" "" ""
-skin.add "weapon_revolver" "gs_r8_llamacannon" "0.0" "0" "0" "" "" "" "" "" ""
-skin.add "weapon_knife_m9_bayonet" "aq_oiled" "0.0" "601" "0" "" "" "" "" "" ""
-skin.add "customplayer_tm_professional_varf3" "" "0.0" "601" "0" "" "" "" "" "" ""
-skin.add "motorcycle_gloves" "motorcycle_smoke" "0.0" "0" "0" "" "" "" "" "" ""
-skin.add "weapon_ak47" "cu_ak_neon_rider" "0.0" "0" "0" "" "" "" "" "" ""
+skin.add "motorcycle_gloves" "motorcycle_mint_triangle" "0.0" "" "" "" "" "" "" "" ""
+skin.add "weapon_knife_karambit" "aa_fade" "0.0" "" "" "theAstro" "" "" "" "" ""
+skin.add "weapon_revolver" "cu_r8_survivalist" "0.0" "" "" "" "" "" "" "" ""
+skin.add "weapon_usp_silencer" "cu_usp_black_lotus" "0.0" "" "" "" "" "" "" "" ""
+skin.add "weapon_m4a1_silencer" "cu_m4a1s_printstream" "0.0" "" "1649" "Buff'd" "columbus2016_signature_flusha_gold" "" "" "" ""
+skin.add "weapon_ssg08" "cu_ssg_overtake" "0.0" "" "957" "freejump" "columbus2016_signature_olofmeister_foil" "columbus2016_signature_olofmeister_gold" "" "" ""
+skin.add "weapon_sg556" "aa_desert_bloom_bright" "0.0" "" "51" "" "" "" "" "" ""
+skin.add "weapon_scar20" "gs_scar20_bloodsport" "0.0" "" "4734" "naughty" "" "" "" "" ""
+skin.add "weapon_p250" "aa_vertigogeo_neon" "0.0" "" "1589" "better than glock" "" "" "" "" ""
+skin.add "weapon_mp9" "aa_mp9_fuji_pink" "0.0" "" "627" "aesthetic nospread" "" "" "" "" ""
+skin.add "weapon_mp7" "cu_mp7_replica" "0.0" "" "" "" "" "" "" "" ""
+skin.add "weapon_hkp2000" "am_scorpion_p2000" "0.0" "" "6934" "golden" "" "" "" "" ""
+skin.add "weapon_tec9" "cu_tec9_sandstorm" "0.0" "" "" "Pocket AK-47" "" "" "" "" ""
+skin.add "weapon_sawedoff" "cu_sawedoff_deva" "0.0" "" "" "" "" "" "" "" ""
+skin.add "weapon_negev" "hy_vertigospray" "0.0" "" "6199" "Volcano" "" "" "" "" ""
+skin.add "weapon_mag7" "hy_geometric_steps_pearl" "0.0" "" "" "" "" "" "" "" ""
+skin.add "weapon_bizon" "cu_bizon_all_in" "0.0" "" "" "" "" "" "" "" ""
+skin.add "weapon_xm1014" "aq_xm1014_punk" "0.0" "" "" "" "" "" "" "" ""
+skin.add "weapon_ump45" "gs_ump_gold_bismuth" "0.0" "" "" "underrated golden shitgun" "" "" "" "" ""
+skin.add "weapon_mp5sd" "gs_mp5_fbi" "0.0" "" "" "" "" "" "" "" ""
+skin.add "weapon_p90" "gs_p90_container" "0.0" "" "" "no need to be an asshole just G" "" "" "" "" ""
+skin.add "weapon_mac10" "am_mac10_oceani" "0.0" "" "" "" "" "" "" "" ""
+skin.add "weapon_m4a1" "cu_m4a4_cyberpunk" "0.0" "" "" "" "" "" "" "" ""
+skin.add "weapon_m249" "gs_m249_combine" "0.0" "" "" "" "" "" "" "" ""
+skin.add "weapon_galilar" "cu_galil_candychaos" "0.0" "" "" "" "" "" "" "" ""
+skin.add "weapon_g3sg1" "gs_g3sg1_cetme_redux" "0.0" "" "" "" "" "" "" "" ""
+skin.add "weapon_famas" "cu_famas_spectron" "0.0" "" "5176" "SemiEco" "" "" "" "" ""
+skin.add "weapon_awp" "cu_awp_asimov" "0.0" "" "345" "" "" "" "cologne2016_signature_coldzera_foil" "columbus2016_signature_coldzera_gold" ""
+skin.add "weapon_aug" "cu_aug_momentum" "0.0" "" "" "" "" "" "" "" ""
+skin.add "weapon_ak47" "cu_fireserpent_ak47_bravo" "0.0" "" "9619" "adrenal'ne" "" "" "" "" ""
+skin.add "weapon_glock" "cu_glock18_warmaiden" "0.0" "" "" "" "" "" "" "" ""
+skin.add "weapon_fiveseven" "gs_five_seven_efusion" "0.0" "" "" "overrated" "" "" "" "" ""
+skin.add "weapon_elite" "cu_elites_urbanstorm" "0.0" "" "" "See you Space, Cowboy." "" "" "" "" ""
+skin.add "weapon_deagle" "aa_flames" "0.0" "" "628" "HypeMaster" "" "" "" "" ""
