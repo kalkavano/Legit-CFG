@@ -505,7 +505,7 @@ lbot.weapon.accuracy.zeus.hrecoil 50.0
 lbot.weapon.accuracy.zeus.rcs "On"
 lbot.weapon.accuracy.zeus.src "On"
 lbot.weapon.accuracy.zeus.vrecoil 100.0
-lbot.weapon.aim "Pistol"
+lbot.weapon.aim "Rifle"
 lbot.weapon.aim.asniper 
 lbot.weapon.aim.asniper.curve 0.5
 lbot.weapon.aim.asniper.randomize 4.0
@@ -569,7 +569,7 @@ lbot.weapon.target.asniper.minfov 0.4
 lbot.weapon.target.asniper.tsd 400.0
 lbot.weapon.target.hpistol 
 lbot.weapon.target.hpistol.fsd 10.0
-lbot.weapon.target.hpistol.maxfov 1.9000002
+lbot.weapon.target.hpistol.maxfov 1.9
 lbot.weapon.target.hpistol.minfov 0.3
 lbot.weapon.target.hpistol.tsd 30.0
 lbot.weapon.target.lmg 
@@ -584,13 +584,13 @@ lbot.weapon.target.pistol.minfov 0.3
 lbot.weapon.target.pistol.tsd 40.0
 lbot.weapon.target.rifle 
 lbot.weapon.target.rifle.fsd 20.0
-lbot.weapon.target.rifle.maxfov 2.5000005
+lbot.weapon.target.rifle.maxfov 2.5
 lbot.weapon.target.rifle.minfov 0.7
 lbot.weapon.target.rifle.tsd 80.0
 lbot.weapon.target.scout 
 lbot.weapon.target.scout.fsd 20.0
 lbot.weapon.target.scout.maxfov 1.9
-lbot.weapon.target.scout.minfov 0.20000002
+lbot.weapon.target.scout.minfov 0.2
 lbot.weapon.target.scout.tsd 70.0
 lbot.weapon.target.shared 
 lbot.weapon.target.shared.fsd 50.0
@@ -1295,37 +1295,37 @@ alias autowallon "rbot.hitscan.mode.pistol.autowall 1; rbot.hitscan.mode.hpistol
 alias autowalloff "rbot.hitscan.mode.pistol.autowall 0; rbot.hitscan.mode.hpistol.autowall 0; rbot.hitscan.mode.smg.autowall 0; rbot.hitscan.mode.rifle.autowall 0; rbot.hitscan.mode.shotgun.autowall 0; rbot.hitscan.mode.scout.autowall 0; rbot.hitscan.mode.asniper.autowall 0; rbot.hitscan.mode.sniper.autowall 0; rbot.hitscan.mode.lmg.autowall 0; rbot.accuracy.weapon.sniper.mindmg 100; rbot.accuracy.weapon.pistol.mindmg 25; rbot.accuracy.weapon.hpistol.mindmg 60; rbot.accuracy.weapon.smg.mindmg 24; rbot.accuracy.weapon.rifle.mindmg 90; rbot.accuracy.weapon.shotgun.mindmg 10; rbot.accuracy.weapon.scout.mindmg 80; rbot.accuracy.weapon.asniper.mindmg 15; rbot.accuracy.weapon.lmg.mindmg 50; rbot.accuracy.weapon.zeus.mindmg 100;"
 alias auto10 "rbot.accuracy.weapon.pistol.mindmg 10; rbot.accuracy.weapon.zeus.mindmg 10; rbot.accuracy.weapon.hpistol.mindmg 10; rbot.accuracy.weapon.smg.mindmg 10; rbot.accuracy.weapon.rifle.mindmg 10; rbot.accuracy.weapon.shotgun.mindmg 10; rbot.accuracy.weapon.scout.mindmg 10; rbot.accuracy.weapon.asniper.mindmg 10; rbot.accuracy.weapon.sniper.mindmg 10; rbot.accuracy.weapon.lmg.mindmg 10;"
 skin.clear
-skin.add "motorcycle_gloves" "motorcycle_mint_triangle" "0.0" "" "" "" "" "" "" "" ""
-skin.add "weapon_knife_karambit" "aa_fade" "0.0" "" "" "theAstro" "" "" "" "" ""
-skin.add "weapon_revolver" "cu_r8_survivalist" "0.0" "" "" "" "" "" "" "" ""
-skin.add "weapon_usp_silencer" "cu_usp_black_lotus" "0.0" "" "" "" "" "" "" "" ""
-skin.add "weapon_m4a1_silencer" "cu_m4a1s_printstream" "0.0" "" "1649" "Buff'd" "columbus2016_signature_flusha_gold" "" "" "" ""
-skin.add "weapon_ssg08" "cu_ssg_overtake" "0.0" "" "957" "freejump" "columbus2016_signature_olofmeister_foil" "columbus2016_signature_olofmeister_gold" "" "" ""
-skin.add "weapon_sg556" "aa_desert_bloom_bright" "0.0" "" "51" "" "" "" "" "" ""
-skin.add "weapon_scar20" "gs_scar20_bloodsport" "0.0" "" "4734" "naughty" "" "" "" "" ""
-skin.add "weapon_p250" "aa_vertigogeo_neon" "0.0" "" "1589" "better than glock" "" "" "" "" ""
-skin.add "weapon_mp9" "aa_mp9_fuji_pink" "0.0" "" "627" "aesthetic nospread" "" "" "" "" ""
-skin.add "weapon_mp7" "cu_mp7_replica" "0.0" "" "" "" "" "" "" "" ""
-skin.add "weapon_hkp2000" "am_scorpion_p2000" "0.0" "" "6934" "golden" "" "" "" "" ""
-skin.add "weapon_tec9" "cu_tec9_sandstorm" "0.0" "" "" "Pocket AK-47" "" "" "" "" ""
-skin.add "weapon_sawedoff" "cu_sawedoff_deva" "0.0" "" "" "" "" "" "" "" ""
-skin.add "weapon_negev" "hy_vertigospray" "0.0" "" "6199" "Volcano" "" "" "" "" ""
-skin.add "weapon_mag7" "hy_geometric_steps_pearl" "0.0" "" "" "" "" "" "" "" ""
-skin.add "weapon_bizon" "cu_bizon_all_in" "0.0" "" "" "" "" "" "" "" ""
-skin.add "weapon_xm1014" "aq_xm1014_punk" "0.0" "" "" "" "" "" "" "" ""
-skin.add "weapon_ump45" "gs_ump_gold_bismuth" "0.0" "" "" "underrated golden shitgun" "" "" "" "" ""
-skin.add "weapon_mp5sd" "gs_mp5_fbi" "0.0" "" "" "" "" "" "" "" ""
-skin.add "weapon_p90" "gs_p90_container" "0.0" "" "" "no need to be an asshole just G" "" "" "" "" ""
-skin.add "weapon_mac10" "am_mac10_oceani" "0.0" "" "" "" "" "" "" "" ""
-skin.add "weapon_m4a1" "cu_m4a4_cyberpunk" "0.0" "" "" "" "" "" "" "" ""
-skin.add "weapon_m249" "gs_m249_combine" "0.0" "" "" "" "" "" "" "" ""
-skin.add "weapon_galilar" "cu_galil_candychaos" "0.0" "" "" "" "" "" "" "" ""
-skin.add "weapon_g3sg1" "gs_g3sg1_cetme_redux" "0.0" "" "" "" "" "" "" "" ""
-skin.add "weapon_famas" "cu_famas_spectron" "0.0" "" "5176" "SemiEco" "" "" "" "" ""
-skin.add "weapon_awp" "cu_awp_asimov" "0.0" "" "345" "" "" "" "cologne2016_signature_coldzera_foil" "columbus2016_signature_coldzera_gold" ""
-skin.add "weapon_aug" "cu_aug_momentum" "0.0" "" "" "" "" "" "" "" ""
-skin.add "weapon_ak47" "cu_fireserpent_ak47_bravo" "0.0" "" "9619" "adrenal'ne" "" "" "" "" ""
-skin.add "weapon_glock" "cu_glock18_warmaiden" "0.0" "" "" "" "" "" "" "" ""
-skin.add "weapon_fiveseven" "gs_five_seven_efusion" "0.0" "" "" "overrated" "" "" "" "" ""
-skin.add "weapon_elite" "cu_elites_urbanstorm" "0.0" "" "" "See you Space, Cowboy." "" "" "" "" ""
-skin.add "weapon_deagle" "aa_flames" "0.0" "" "628" "HypeMaster" "" "" "" "" ""
+skin.add "motorcycle_gloves" "motorcycle_mint_triangle" "0.0" "0" "0" "" "" "" "" "" ""
+skin.add "weapon_knife_karambit" "aa_fade" "0.0" "0" "0" "theAstro" "" "" "" "" ""
+skin.add "weapon_revolver" "cu_r8_survivalist" "0.0" "0" "0" "" "" "" "" "" ""
+skin.add "weapon_usp_silencer" "cu_usp_black_lotus" "0.0" "0" "0" "" "" "" "" "" ""
+skin.add "weapon_m4a1_silencer" "cu_m4a1s_printstream" "0.0" "0" "1649" "Buff'd" "columbus2016_signature_flusha_gold" "" "" "" ""
+skin.add "weapon_ssg08" "cu_ssg_overtake" "0.0" "0" "957" "freejump" "columbus2016_signature_olofmeister_foil" "columbus2016_signature_olofmeister_gold" "" "" ""
+skin.add "weapon_sg556" "aa_desert_bloom_bright" "0.0" "0" "51" "" "" "" "" "" ""
+skin.add "weapon_scar20" "gs_scar20_bloodsport" "0.0" "0" "4734" "naughty" "" "" "" "" ""
+skin.add "weapon_p250" "aa_vertigogeo_neon" "0.0" "0" "1589" "better than glock" "" "" "" "" ""
+skin.add "weapon_mp9" "aa_mp9_fuji_pink" "0.0" "0" "627" "aesthetic nospread" "" "" "" "" ""
+skin.add "weapon_mp7" "cu_mp7_replica" "0.0" "0" "0" "" "" "" "" "" ""
+skin.add "weapon_hkp2000" "am_scorpion_p2000" "0.0" "0" "6934" "golden" "" "" "" "" ""
+skin.add "weapon_tec9" "cu_tec9_sandstorm" "0.0" "0" "0" "Pocket AK-47" "" "" "" "" ""
+skin.add "weapon_sawedoff" "cu_sawedoff_deva" "0.0" "0" "0" "" "" "" "" "" ""
+skin.add "weapon_negev" "hy_vertigospray" "0.0" "0" "6199" "Volcano" "" "" "" "" ""
+skin.add "weapon_mag7" "hy_geometric_steps_pearl" "0.0" "0" "0" "" "" "" "" "" ""
+skin.add "weapon_bizon" "cu_bizon_all_in" "0.0" "0" "0" "" "" "" "" "" ""
+skin.add "weapon_xm1014" "aq_xm1014_punk" "0.0" "0" "0" "" "" "" "" "" ""
+skin.add "weapon_ump45" "gs_ump_gold_bismuth" "0.0" "0" "0" "underrated golden shitgun" "" "" "" "" ""
+skin.add "weapon_mp5sd" "gs_mp5_fbi" "0.0" "0" "0" "" "" "" "" "" ""
+skin.add "weapon_p90" "gs_p90_container" "0.0" "0" "0" "no need to be an asshole just G" "" "" "" "" ""
+skin.add "weapon_mac10" "am_mac10_oceani" "0.0" "0" "0" "" "" "" "" "" ""
+skin.add "weapon_m4a1" "cu_m4a4_cyberpunk" "0.0" "0" "0" "" "" "" "" "" ""
+skin.add "weapon_m249" "gs_m249_combine" "0.0" "0" "0" "" "" "" "" "" ""
+skin.add "weapon_galilar" "cu_galil_candychaos" "0.0" "0" "0" "" "" "" "" "" ""
+skin.add "weapon_g3sg1" "gs_g3sg1_cetme_redux" "0.0" "0" "0" "" "" "" "" "" ""
+skin.add "weapon_famas" "cu_famas_spectron" "0.0" "0" "5176" "SemiEco" "" "" "" "" ""
+skin.add "weapon_awp" "cu_awp_asimov" "0.0" "0" "345" "" "" "" "cologne2016_signature_coldzera_foil" "columbus2016_signature_coldzera_gold" ""
+skin.add "weapon_aug" "cu_aug_momentum" "0.0" "0" "0" "" "" "" "" "" ""
+skin.add "weapon_ak47" "cu_fireserpent_ak47_bravo" "0.0" "0" "9619" "adrenal'ne" "" "" "" "" ""
+skin.add "weapon_glock" "cu_glock18_warmaiden" "0.0" "0" "0" "" "" "" "" "" ""
+skin.add "weapon_fiveseven" "gs_five_seven_efusion" "0.0" "0" "0" "overrated" "" "" "" "" ""
+skin.add "weapon_elite" "cu_elites_urbanstorm" "0.0" "0" "0" "See you Space, Cowboy." "" "" "" "" ""
+skin.add "weapon_deagle" "aa_flames" "0.0" "0" "628" "HypeMaster" "" "" "" "" ""
